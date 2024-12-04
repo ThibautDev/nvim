@@ -13,6 +13,13 @@ return {
     end,
   },
 
+  {
+    "NvChad/ui",
+    config = function()
+      vim.opt.showtabline = 0
+    end,
+  }
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
